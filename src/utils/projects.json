@@ -1,0 +1,16 @@
+{
+  "projects": [
+    {
+      "name": "PyPassword",
+      "detail": "make use of command line args and make old style password manager",
+      "github": "https://github.com/dhir0hit/passwordSafe",
+      "image": ""
+    },
+    {
+      "name": "PyPasssword",
+      "detail": "make use of command line args and make old style password manager",
+      "github": "https://github.com/dhir0hit/passwordSafe",
+      "image": ""
+    }
+  ]
+}

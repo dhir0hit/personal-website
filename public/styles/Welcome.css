@@ -1,0 +1,93 @@
+body {
+  overflow: hidden;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes slide-in {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+@keyframes slide-out {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(10);
+    opacity: 0;
+  }
+}
+
+#welcome-overlay_container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  transform: scale(0);
+
+  animation: slide-in 0.8s linear 0.01s forwards;
+}
+#welcome-overlay {
+  /*background-color: black;*/
+  width: fit-content;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+#welcome-overlay h1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2rem;
+}
+
+#welcome-overlay button {
+  font-family: 'Raleway', sans-serif;
+  font-size: medium;
+  padding: 10px 20px;
+  background-color: aqua;
+  border: none;
+
+  border-radius: 5px;
+}
+#welcome-overlay button:hover{
+  /*border: none;*/
+}
+#welcome-overlay button:active{
+  background-color: black;
+  color: aqua;
+}
+
+.Logo {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.Logo *:nth-of-type(3) {
+  background-color: white;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .Logo *:nth-of-type(2) {
+    animation: logo-spin infinite 20s linear;
+  }
+}

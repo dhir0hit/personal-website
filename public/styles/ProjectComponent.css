@@ -1,0 +1,32 @@
+
+#projectContainer {
+    display: flex;
+    display: -o-flex;
+    display: -ms-flex;
+    display: -webkit-flex;
+
+    flex-direction: row;
+    -ms-flex-direction: row;
+    -webkit-flex-direction: row;
+
+    align-items: center;
+    -webkit-align-items: center;
+
+    gap: 1rem;
+
+    background: rgba(0, 0, 0, 0.8);
+
+    border-radius: 7px;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+
+    padding: 1rem;
+
+    width: 600px;
+    max-width: 600px;
+
+    border: 1px solid white;
+
+}
+
+#projectContainer ul{padding: 2rem; padding-block: 1rem}
