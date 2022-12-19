@@ -1,5 +1,5 @@
 import '/public/styles/Loading.css';
-import React from "react";
+import React, {Suspense} from "react";
 
 /**
  * Loading Screen with three spinner

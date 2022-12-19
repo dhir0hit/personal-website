@@ -10,7 +10,7 @@ import Loading from "./Loading.jsx";
 
 function Skills() {
     return (
-        <Suspense>
+        <Suspense fallback={<Loading/>}>
             <Canvas >
                 <ambientLight />
                 <pointLight position={[0, 1, 2]} />
